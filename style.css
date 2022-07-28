@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000000;
+    margin-top: 15%;
+    text-align: center;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+}
+
+/*Relógio*/
+
+#watch{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.posit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 170px;
+    width: 130px;
+}
+
+#hours, #minutes, #seconds, p{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+/*cronometro e relógio*/
+
+#watch, #crono{
+    height: 200px;
+    width: 450px;
+    background-color: #131313fa;
+    border-radius: 10px;
+}
+
+/*cronometro*/
+
+h1{
+    padding: 10% 0 1% 0;
+    font-size: 50px;
+}
+
+button{
+    border: none;
+    margin: 5px;
+    height: 30px;
+    width: 90px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+#start{
+    background-color: #008000;
+}
+
+#pause{
+    background-color: #fbff00;
+}
+
+#stop{
+    background-color: #ff0000;
+}
